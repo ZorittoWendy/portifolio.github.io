@@ -5,3 +5,16 @@ header {
     border-bottom: 10px solid #34495e;
     padding: 10px 20px;
 }
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
