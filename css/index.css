@@ -18,3 +18,12 @@ a {
     text-decoration: none;
     margin-right: 30px;
 }
+
+a::before {
+    display: inline-block;
+    content: "";
+    background-color: #e74c3c;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
