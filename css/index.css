@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #9b59b6;
     border-bottom: 10px solid #34495e;
     padding: 10px 20px;
@@ -11,6 +12,8 @@ nav {
 }
 
 a {
+    display: inline-flex;
+    align-items: center;
     color: #fff;
     font-size: 20px;
     font-family: "Fira code", Arial, Helvetica, sans-serif;
@@ -26,4 +29,23 @@ a::before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #e74c3c;
+    box-shadow: 5px 5px 0px #34495e;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+#button:hover {
+    transform: scale(1.08);
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #e74c3c;
 }
