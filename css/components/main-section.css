@@ -8,3 +8,11 @@
 .main-section .main-title {
     margin-bottom: 60px;
 }
+
+.main-section.-bgBlack {
+    background-color: #000;
+}
+
+.main-section.-bdFirst {
+    border-color: #EA2027;
+}
