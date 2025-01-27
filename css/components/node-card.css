@@ -37,3 +37,7 @@
 .node-card.-clean .logo {
     padding: 0;
 }
+
+.node-card.-first .logo {
+    background-color: #EA2027;
+}
